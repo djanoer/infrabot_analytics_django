@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+.venv/
+venv/ # Direktori virtual environment Anda
+env/
+*.egg-info/
+.pytest_cache/
+
+# Django
+db.sqlite3 # Jika Anda menggunakan SQLite
+media/
+static/ # Jika Django mengumpulkan static files di root
+
+# Environment variables
+.env # SANGAT PENTING: JANGAN PERNAH MENYIMPAN FILE .ENV DI REPO PUBLIK
+
+# Celery
+*.log
+celerybeat.pid
+
+# IDEs (optional)
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+.#*
